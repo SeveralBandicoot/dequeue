@@ -30,7 +30,7 @@ int main() {
     deque<string> dequeStrings = {"Abigal", "Bailey", "Sam", "Jason", "Norman"};
     stack<string> stackStrings;
 
-    // push numbers to stack
+    // push names to stack
     stackStrings.push("Abigal");
     stackStrings.push("Bailey");
     stackStrings.push("Sam");
@@ -46,7 +46,7 @@ int main() {
 }
 
 void display(deque<string> dequeStrings, stack<string> stackStrings) {
-    cout << "Queue Display: " << endl; // display contents of queue
+    cout << "Queue Display: " << endl; // display contents of dequeue
     for (int i = 0; i < dequeStrings.size(); i ++) {
         cout << dequeStrings[i] << endl;
     }
